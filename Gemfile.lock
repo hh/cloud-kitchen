@@ -1,0 +1,251 @@
+GIT
+  remote: git://github.com/RiotGames/berkshelf.git
+  revision: 9abe8c0b3b01a234bd00cbd0b371108bf8d9e69d
+  ref: 9abe8c0b
+  specs:
+    berkshelf (1.1.2)
+      activesupport
+      chef (>= 10.16.2)
+      chozo (>= 0.2.3)
+      hashie
+      minitar
+      multi_json (~> 1.5)
+      oj (~> 2.0.0)
+      ridley (>= 0.7.0.rc1)
+      solve (>= 0.4.0.rc1)
+      thor (~> 0.16.0)
+      vagrant (~> 1.0.5)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    CFPropertyList (2.0.17)
+      libxml-ruby (>= 1.1.0)
+      rake (>= 0.7.0)
+    Platform (0.4.0)
+    activesupport (3.2.11)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    addressable (2.3.2)
+    akami (1.2.0)
+      gyoku (>= 0.4.0)
+      nokogiri (>= 1.4.0)
+    ansi (1.3.0)
+    archive-tar-minitar (0.5.2)
+    builder (3.1.4)
+    bunny (0.7.9)
+    celluloid (0.12.4)
+      facter (>= 1.6.12)
+      timers (>= 1.0.0)
+    chef (10.18.2)
+      bunny (>= 0.6.0, < 0.8.0)
+      erubis
+      highline (>= 1.6.9)
+      json (>= 1.4.4, <= 1.6.1)
+      mixlib-authentication (>= 1.3.0)
+      mixlib-cli (>= 1.1.0)
+      mixlib-config (>= 1.1.2)
+      mixlib-log (>= 1.3.0)
+      mixlib-shellout
+      moneta (< 0.7.0)
+      net-ssh (~> 2.2.2)
+      net-ssh-multi (~> 1.1.0)
+      ohai (>= 0.6.0)
+      rest-client (>= 1.0.4, < 1.7.0)
+      treetop (~> 1.4.9)
+      uuidtools
+      yajl-ruby (~> 1.1)
+    childprocess (0.3.7)
+      ffi (~> 1.0, >= 1.0.6)
+    chozo (0.4.2)
+      activesupport (>= 3.2.0)
+      hashie
+      multi_json (>= 1.3.0)
+    cucumber (1.2.1)
+      builder (>= 2.1.2)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 2.11.0)
+      json (>= 1.4.6)
+    diff-lcs (1.1.3)
+    em-winrm (0.5.4)
+      eventmachine (= 1.0.0.beta.3)
+      mixlib-log (>= 1.3.0)
+      uuidtools (~> 2.1.1)
+      winrm (~> 1.1.0)
+    erubis (2.7.0)
+    eventmachine (1.0.0.beta.3)
+    excon (0.16.10)
+    facter (1.6.17)
+    faraday (0.8.4)
+      multipart-post (~> 1.1)
+    ffi (1.3.1)
+    fission (0.4.0)
+      CFPropertyList (~> 2.0.17)
+    fog (1.9.0)
+      builder
+      excon (~> 0.14)
+      formatador (~> 0.2.0)
+      mime-types
+      multi_json (~> 1.0)
+      net-scp (~> 1.0.4)
+      net-ssh (>= 2.1.3)
+      nokogiri (~> 1.5.0)
+      ruby-hmac
+    formatador (0.2.4)
+    gherkin (2.11.5)
+      json (>= 1.4.6)
+    grit (2.5.0)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+      posix-spawn (~> 0.3.6)
+    gssapi (1.0.3)
+      ffi (>= 1.0.1)
+    gyoku (1.0.0)
+      builder (>= 2.1.2)
+    hashie (1.2.0)
+    highline (1.6.15)
+    httpclient (2.2.0.2)
+    httpi (0.9.7)
+      rack
+    i18n (0.6.1)
+    ipaddress (0.8.0)
+    json (1.5.4)
+    libxml-ruby (2.4.0)
+    little-plugger (1.1.3)
+    log4r (1.1.10)
+    logging (1.6.2)
+      little-plugger (>= 1.1.3)
+    mime-types (1.19)
+    minitar (0.5.4)
+    mixlib-authentication (1.3.0)
+      mixlib-log
+    mixlib-cli (1.3.0)
+    mixlib-config (1.1.2)
+    mixlib-log (1.4.1)
+    mixlib-shellout (1.1.0)
+    moneta (0.6.0)
+    multi_json (1.5.0)
+    multipart-post (1.1.5)
+    net-http-persistent (2.8)
+    net-scp (1.0.4)
+      net-ssh (>= 1.99.1)
+    net-ssh (2.2.2)
+    net-ssh-gateway (1.1.0)
+      net-ssh (>= 1.99.1)
+    net-ssh-multi (1.1)
+      net-ssh (>= 2.1.4)
+      net-ssh-gateway (>= 0.99.0)
+    nokogiri (1.5.6)
+    nori (1.1.4)
+    ohai (6.16.0)
+      ipaddress
+      mixlib-cli
+      mixlib-config
+      mixlib-log
+      mixlib-shellout
+      systemu
+      yajl-ruby
+    oj (2.0.2)
+    open4 (1.3.0)
+    polyglot (0.3.3)
+    popen4 (0.1.2)
+      Platform (>= 0.4.0)
+      open4 (>= 0.4.0)
+    posix-spawn (0.3.6)
+    progressbar (0.12.0)
+    rack (1.5.0)
+    rake (10.0.3)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    ridley (0.7.0.rc1)
+      activesupport (>= 3.2.0)
+      addressable
+      celluloid
+      chozo (>= 0.4.1)
+      erubis
+      faraday (>= 0.8.4)
+      json (>= 1.5.0)
+      mixlib-authentication
+      mixlib-log
+      multi_json (>= 1.0.4)
+      net-http-persistent (>= 2.8)
+      net-ssh
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.2)
+    rspec-expectations (2.12.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.1)
+    ruby-hmac (0.4.0)
+    ruby-vnc (1.0.1)
+    rubyntlm (0.1.1)
+    savon (0.9.5)
+      akami (~> 1.0)
+      builder (>= 2.1.2)
+      gyoku (>= 0.4.0)
+      httpi (~> 0.9)
+      nokogiri (>= 1.4.0)
+      nori (~> 1.0)
+      wasabi (~> 1.0)
+    solve (0.4.1)
+      json
+    systemu (2.5.2)
+    thor (0.16.0)
+    timers (1.1.0)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    uuidtools (2.1.3)
+    vagrant (1.0.5)
+      archive-tar-minitar (= 0.5.2)
+      childprocess (~> 0.3.1)
+      erubis (~> 2.7.0)
+      i18n (~> 0.6.0)
+      json (~> 1.5.1)
+      log4r (~> 1.1.9)
+      net-scp (~> 1.0.4)
+      net-ssh (~> 2.2.2)
+    vagrant-windows (0.1.2)
+      highline
+      vagrant (~> 1.0.3)
+      winrm (~> 1.1.1)
+    veewee (0.3.7)
+      ansi (~> 1.3.0)
+      childprocess
+      cucumber (>= 1.0.0)
+      fission (= 0.4.0)
+      fog (~> 1.8)
+      grit
+      highline
+      i18n
+      net-ssh (~> 2.2.0)
+      popen4 (~> 0.1.2)
+      progressbar
+      rspec (~> 2.5)
+      ruby-vnc (~> 1.0.0)
+      thor (~> 0.15)
+      vagrant (>= 0.9)
+    wasabi (1.0.0)
+      nokogiri (>= 1.4.0)
+    winrm (1.1.2)
+      gssapi (~> 1.0.0)
+      httpclient (~> 2.2.0.2)
+      logging (~> 1.6.1)
+      nokogiri (~> 1.5.0)
+      rubyntlm (~> 0.1.1)
+      savon (= 0.9.5)
+      uuidtools (~> 2.1.2)
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  berkshelf!
+  chef
+  em-winrm
+  vagrant
+  vagrant-windows
+  veewee

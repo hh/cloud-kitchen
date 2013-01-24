@@ -1,0 +1,3 @@
+Installing ii-ubiquity (0.1.0) from git: 'git://github.com/hh/cookbook-ii-ubiquity.git' with branch: 'master'
+Installing ii-usb (0.1.0) from git: 'git://github.com/hh/cookbook-ii-usb.git' with branch: 'master'
+Installing ohai (1.1.6) from site: 'http://cookbooks.opscode.com/api/v1/cookbooks'

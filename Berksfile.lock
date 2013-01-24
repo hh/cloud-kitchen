@@ -1,0 +1,22 @@
+{
+  "sha":"48cc1cdcac29869b719dea9198a0ac3a22aa3dfc",
+  "sources":[
+    {
+      "name":"ii-ubiquity",
+      "locked_version":"0.1.0",
+      "location":{
+        "type":"git",
+        "value":"git://github.com/hh/cookbook-ii-ubiquity.git",
+        "branch":"master"
+      }
+    },
+    {
+      "name":"ii-usb",
+      "locked_version":"0.1.0",
+      "location":{
+        "type":"git",
+        "value":"git://github.com/hh/cookbook-ii-usb.git",
+        "branch":"master"
+      }
+    }
+  ]}
