@@ -1,0 +1,58 @@
+bash -c '
+ntpdate -u pool.ntp.org
+gpg --keyserver pgpkeys.mit.edu --recv-key 40976EAF437D05B5
+gpg -a --export 40976EAF437D05B5 | apt-key add -
+apt-get update
+<%= "export http_proxy=\"#{knife_config[:bootstrap_proxy]}\"" if knife_config[:bootstrap_proxy] -%>
+
+exists() {
+  if command -v $1 &>/dev/null
+  then
+    return 0
+  else
+    return 1
+  fi
+}
+
+install_sh="http://opscode.com/chef/install.sh"
+version_string="<%= "-v #{knife_config[:bootstrap_version]}" if knife_config[:bootstrap_version] %>"
+
+if ! exists /usr/bin/chef-client; then
+  if exists wget; then
+    bash <(wget <%= "--proxy=on " if knife_config[:bootstrap_proxy] %> ${install_sh} -O -) ${version_string}
+  else
+    if exists curl; then
+      bash <(curl -L <%= "--proxy=on " if knife_config[:bootstrap_proxy] %> ${install_sh}) ${version_string}
+    fi
+  fi
+fi
+
+mkdir -p /etc/chef
+
+(
+cat <<'EOP'
+<%= validation_key %>
+EOP
+) > /tmp/validation.pem
+awk NF /tmp/validation.pem > /etc/chef/validation.pem
+rm /tmp/validation.pem
+
+(
+cat <<'EOP'
+<%= config_content %>
+EOP
+) > /etc/chef/client.rb
+
+(
+cat <<'EOP'
+<%= { "run_list" => @run_list }.to_json %>
+EOP
+) > /etc/chef/first-boot.json
+
+<%= start_chef %>
+<% unless @run_list.include?("role[classroom]") -%>
+rm -rf /etc/chef
+rm -rf /var/chef
+<% end -%>
+<%= "dpkg --purge chef-full chef || rpm -e chef-full chef" if @run_list.include?("role[target]") %>
+'
