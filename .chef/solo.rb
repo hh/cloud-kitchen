@@ -20,5 +20,5 @@ open(solo_json_file,'w+') do |f|
       }
     }.to_json
     )
-end
+end if not ::File.exists? solo_json_file
 json_attribs solo_json_file
