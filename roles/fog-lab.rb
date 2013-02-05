@@ -8,8 +8,8 @@ run_list(
   "role[fileserver]",
   "recipe[ii-lxc]",
   "recipe[ii-chef-server::within-lxc]",
-  "recipe[knife-workstation::firefox]", 
-  "recipe[knife-workstation::packages]" # needed for mechanize used in create-training-containers
+  "recipe[ii-knife-workstation::firefox]", 
+  "recipe[ii-knife-workstation::packages]" # needed for mechanize used in create-training-containers
 )
 
 
