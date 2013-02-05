@@ -13,10 +13,17 @@ open(solo_json_file,'w+') do |f|
     {
       "run_list" => [
         "role[fog-lab]"
-        ],
+      ],
       'private_chef' => {
         'package_file' => "private-chef_1.2.8.2-1.ubuntu.11.04_amd64.deb",
         'package_temp_url' => nil # ask someone at opscode for this
+      },
+      "ntp" => {
+        "servers" => ["time"]
+      },
+      "resolver" => {
+        "search" => "training",
+        "nameservers" => ["10.12.13.1"]
       }
     }.to_json
     )
