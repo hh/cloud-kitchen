@@ -6,6 +6,7 @@ cookbook 'ii-ubiquity', github: 'ii-cookbooks/ii-ubiquity', ref: 'master'
 cookbook 'ii-lxc', github: 'ii-cookbooks/ii-lxc', ref: 'master'
 cookbook 'ii-knife-workstation', github: 'ii-cookbooks/ii-knife-workstation', ref: 'master'
 cookbook 'ii-chef-server', github: 'ii-cookbooks/ii-chef-server', ref: 'master'
+cookbook 'ii-fileserver', github: 'ii-cookbooks/ii-fileserver', ref: 'master'
 
 cookbook 'debmirror', github: 'hh-cookbooks/debmirror', ref: 'master'
 
