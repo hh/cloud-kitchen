@@ -24,5 +24,8 @@ default_attributes(
     "qemu" => {
       "vnc_listen" => "0.0.0.0"
     }
+  },
+  workstation: {
+    username: 'opscode' # needed for create-training-containers
   }
 )
