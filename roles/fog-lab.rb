@@ -7,7 +7,7 @@ run_list(
   "recipe[ntp]",
   "role[fileserver]",
   "recipe[ii-lxc]",
-  "recipe[ii-chef-server::within-lxc]",
+  "recipe[ii-chef-server::default]",
   "recipe[ii-knife-workstation::firefox]", 
   "recipe[ii-knife-workstation::packages]" # needed for mechanize used in create-training-containers
 )
