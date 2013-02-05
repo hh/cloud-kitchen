@@ -12,7 +12,7 @@ default_attributes(
     "servers" => ["time"]
   },
   "resolver" => {
-    "search" => "foglab",
+    "search" => "training",
     "nameservers" => ["10.12.13.1"]
   }
 )
