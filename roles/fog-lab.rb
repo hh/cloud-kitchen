@@ -2,7 +2,6 @@ name "fog-lab"
 description "The machine that will run virtualization of everything else"
 
 run_list(
-  "role[base]",
   "recipe[apt]",
   "recipe[apt::cacher-ng]",
   "recipe[ntp]",
