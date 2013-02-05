@@ -6,7 +6,7 @@ run_list(
   "recipe[apt::cacher-ng]",
   "recipe[ntp]",
   "role[fileserver]",
-  "recipe[virtualization]",
+  "recipe[ii-lxc]",
   "recipe[ii-chef-server::within-lxc]",
   "recipe[knife-workstation::firefox]", 
   "recipe[knife-workstation::packages]" # needed for mechanize used in create-training-containers
