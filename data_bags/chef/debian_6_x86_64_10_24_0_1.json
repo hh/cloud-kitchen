@@ -1,0 +1,13 @@
+{
+  "id": "debian_6_x86_64_10_24_0_1",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/debian/6/x86_64/chef_10.24.0-1.debian.6.0.5_amd64.deb",
+  "filename": "chef_10.24.0-1.debian.6.0.5_amd64.deb",
+  "arch": "x86_64",
+  "checksum": "3744a586a35643c590c1a886938840d47499eb56b7dff0d05efc5da431813e5a",
+  "version": "10.24.0-1",
+  "os": {
+    "debian": [
+      "6"
+    ]
+  }
+}

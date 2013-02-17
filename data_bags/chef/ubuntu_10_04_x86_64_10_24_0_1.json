@@ -1,0 +1,14 @@
+{
+  "id": "ubuntu_10_04_x86_64_10_24_0_1",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/ubuntu/10.04/x86_64/chef_10.24.0-1.ubuntu.10.04_amd64.deb",
+  "filename": "chef_10.24.0-1.ubuntu.10.04_amd64.deb",
+  "arch": "x86_64",
+  "checksum": "bbebf12249b865e8c682a90faa52761549529d1dab3b9ddd71e31b9d09192c20",
+  "version": "10.24.0-1",
+  "os": {
+    "ubuntu": [
+      "10.04",
+      "10.10"
+    ]
+  }
+}

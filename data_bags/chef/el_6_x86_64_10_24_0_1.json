@@ -1,0 +1,16 @@
+{
+  "id": "el_6_x86_64_10_24_0_1",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/el/6/x86_64/chef-10.24.0-1.el6.x86_64.rpm",
+  "filename": "chef-10.24.0-1.el6.x86_64.rpm",
+  "arch": "x86_64",
+  "checksum": "55a8285dc04320892eff97d259c9fae2ed883ac6111d10943c61ac38f9b4ed30",
+  "version": "10.24.0-1",
+  "os": {
+    "el": [
+      "6"
+    ],
+    "suse": [
+      "12.1"
+    ]
+  }
+}

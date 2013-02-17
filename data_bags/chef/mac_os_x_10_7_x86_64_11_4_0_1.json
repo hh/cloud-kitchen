@@ -1,0 +1,13 @@
+{
+  "id": "mac_os_x_10_7_x86_64_11_4_0_1",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/mac_os_x/10.7/x86_64/chef-11.4.0_1.mac_os_x.10.7.2.sh",
+  "filename": "chef-11.4.0_1.mac_os_x.10.7.2.sh",
+  "arch": "x86_64",
+  "checksum": "0b1bd68a2983698211ef80b318a8a7c90137819d871a4092a66e85e4723ddc58",
+  "version": "11.4.0-1",
+  "os": {
+    "mac_os_x": [
+      "10.7"
+    ]
+  }
+}

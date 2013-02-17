@@ -1,0 +1,16 @@
+{
+  "id": "windows_2008r2_x86_64_11_4_0_1",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/windows/2008r2/x86_64/chef-client-11.4.0-1.windows.msi",
+  "filename": "chef-client-11.4.0-1.windows.msi",
+  "arch": "x86_64",
+  "checksum": "c85e1606ce20eb5008e91b0dd218f325600567b18c453c1eeea71aba241d3566",
+  "version": "11.4.0-1",
+  "os": {
+    "windows": [
+      "2008",
+      "2003r2",
+      "2008r2",
+      "2012"
+    ]
+  }
+}
