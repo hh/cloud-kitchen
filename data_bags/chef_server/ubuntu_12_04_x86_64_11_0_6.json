@@ -1,0 +1,14 @@
+{
+  "id": "ubuntu_12_04_x86_64_11_0_6",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/ubuntu/12.04/x86_64/chef-server_11.0.6-1.ubuntu.12.04_amd64.deb",
+  "filename": "chef-server_11.0.6-1.ubuntu.12.04_amd64.deb",
+  "arch": "x86_64",
+  "checksum": "0d96b95b0d88c202764620bc88ca41f9cb721dddccd91584780ba13f4b1d8b65",
+  "version": "11.0.6",
+  "os": {
+    "ubuntu": [
+      "12.10",
+      "12.04"
+    ]
+  }
+}
