@@ -9,5 +9,8 @@ model-images can then be created and cloned locally for testing and eventually u
 
 ```
 git clone git@github.com:hh/cloud-kitchen.git
-bundle install
-bundle exec chef-solo -c .chef/create-usb-solo.rb
+bundle install 
+bundle exec berks install --path ./cookbooks/
+# running chef within the bundle fails... I'm using fullstack 11.4.0
+chef-solo -c .chef/create-usb-solo.rb
+```

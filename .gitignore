@@ -16,7 +16,6 @@ tmp
 .yardoc
 _yardoc
 doc/
-Berksfile.lock
 cookbooks/
 vendor/
 .chef/
@@ -24,3 +23,4 @@ vendor/
 *.deb
 *.msi
 *1.mac_os_x*
+.cache/
