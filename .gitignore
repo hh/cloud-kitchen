@@ -17,3 +17,10 @@ tmp
 _yardoc
 doc/
 Berksfile.lock
+cookbooks/
+vendor/
+.chef/
+*.rpm
+*.deb
+*.msi
+*1.mac_os_x*
