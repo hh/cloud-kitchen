@@ -10,9 +10,11 @@ knife[:current_dir] = current_dir
 solo_json_file = "#{current_dir}/solo.json"
 open(solo_json_file,'w+') do |f|
   f.write(
-    {
+    JSON.pretty_generate({
       "run_list" => [
-        "role[fog-lab]"
+        "chef-solo-search",
+        "role[cloud-kitchen]"
+#        "role[fog-lab]"
       ],
       'private_chef' => {
         'package_file' => "private-chef_1.2.8.2-1.ubuntu.11.04_amd64.deb",
@@ -25,7 +27,7 @@ open(solo_json_file,'w+') do |f|
         "search" => "training",
         "nameservers" => ["10.12.13.1"]
       }
-    }.to_json
+    })
     )
 end if not ::File.exists? solo_json_file
 json_attribs solo_json_file
