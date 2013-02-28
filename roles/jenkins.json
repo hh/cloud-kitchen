@@ -1,0 +1,87 @@
+{
+  "name": "jenkins",
+  "description": "Jenkins and Gerrit Server",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "build_essential": {
+      "compiletime": true
+    },
+    "gerrit": {
+      "http_proxy": {
+        "host_name": "cd-gerrit.training.net"
+      },
+      "canonical_url": "http://cd-gerrit.training.net/",
+      "smtp_server": "localhost",
+      "smtp_from": "Code Review <no-reply@training.com>",
+      "auth_method": "LDAP",
+      "ldap": {
+        "server": "ldaps://training.net",
+        "accountBase": "dc=training,dc=net",
+        "groupBase": "dc=training,dc=net",
+        "sslVerify": "false",
+        "username": "CN=oppjnk1,OU=Users,OU=Accounts,DC=training,DC=net",
+        "password": "kuGUc5tHAtEg"
+      }
+    },
+    "jenkins": {
+      "http_proxy": {
+        "host_name": "cd-jenkins.training",
+        "variant": "nginx"
+      },
+      "server": {
+        "plugins": [
+          "git",
+          "build-pipeline-plugin",
+          "github-api",
+          "github",
+          "greenballs",
+          "analysis-core",
+          "warnings",
+          "parameterized-trigger",
+          "cobertura",
+          "sounds",
+          "throttle-concurrents",
+          "build-flow-plugin",
+          "groovyaxis"
+        ]
+      }
+    },
+    "cd-tools": {
+      "jenkins": {
+        "git_email": "cd-jenkins@training",
+        "git_name": "CD Jenkins",
+        "manual_steps": [ "prod" ],
+        "pipeline": [ "integration", "staging", "prod" ],
+        "chef_server_url": "https://chefp01.training/organizations/cd",
+        "node_name": "jenkins-cd",
+        "client_key": "/var/lib/jenkins/.chef/jenkins.pem"
+      },
+      "gerrit": {
+        "hostname": "localhost",
+        "front_end_url": "http://cd-gerrit.training/"
+      }
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[yum]",
+    "recipe[build-essential]",
+    "recipe[nginx::source]",
+    "recipe[java]",
+    "recipe[jenkins]",
+    "recipe[postgresql::server]",
+    "recipe[gerrit]",
+    "recipe[foodcritic]",
+    "recipe[nodejs]",
+    "recipe[maven]",
+    "recipe[sqlite]",
+    "recipe[redisio::install]",
+    "recipe[redisio::enable]",
+    "recipe[metarepo]",
+    "recipe[cd-tools]"
+  ],
+  "env_run_lists": {
+  }
+}

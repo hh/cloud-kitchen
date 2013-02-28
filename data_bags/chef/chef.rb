@@ -35,7 +35,9 @@ j.each do |os,val|
     val.each do |arch, val|
       val.each do |chef_ver, chef_url|
         # We could do this for all versions, but I only want newer stuff
-        semantic_ver = chef_ver.split('-').first.split('.')[0..2].join('.')
+        dotted_ver=chef_ver.split('-').first.split('.')
+        next if dotted_ver[3] =~ /alpha/
+        semantic_ver = dotted_ver[0..2].join('.')
         filename=File.basename(chef_url)
         if semantic_ver.start_with? '11'
           next if not Chef::VersionConstraint.new(">= 11.4.0").include? semantic_ver

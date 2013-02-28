@@ -19,9 +19,11 @@ else
     cookbook 'ii-chef-server', github: 'ii-cookbooks/ii-chef-server', ref: 'master'
     cookbook 'ii-fileserver', github: 'ii-cookbooks/ii-fileserver', ref: 'master'
     cookbook 'debmirror', github: 'hh-cookbooks/debmirror', ref: 'master'
+    cookbook 'cd-tools', github: 'easybake-cookbooks/cd-tools', ref: 'master'
 end
 
 cookbook 'chef-solo-search', github: 'edelight/chef-solo-search', ref: 'master'
+
 # we need to search local data bags!
 cookbook 'apache2'
 cookbook 'apt'
@@ -35,3 +37,17 @@ cookbook 'resolver'
 cookbook 'runit'
 cookbook 'ucspi-tcp'
 
+
+
+# specifically for easybake.cd
+
+cookbook '7-zip'
+cookbook 'windows'
+cookbook 'java'
+cookbook 'gerrit'
+cookbook 'foodcritic'
+cookbook 'nodejs'
+cookbook 'maven'
+cookbook 'sqlite'
+cookbook 'redisio'
+cookbook 'metarepo'
