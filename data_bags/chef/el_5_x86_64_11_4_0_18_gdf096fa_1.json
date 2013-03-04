@@ -1,0 +1,16 @@
+{
+  "id": "el_5_x86_64_11_4_0_18_gdf096fa_1",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/el/5/x86_64/chef-11.4.0_18_gdf096fa-1.el5.x86_64.rpm",
+  "filename": "chef-11.4.0_18_gdf096fa-1.el5.x86_64.rpm",
+  "arch": "x86_64",
+  "checksum": "2226e5c53a1be71fc67a8b04d9348ae75c3ad9a3c3f3f73f398419176cf0f830",
+  "version": "11.4.0-18-gdf096fa-1",
+  "os": {
+    "el": [
+      "5"
+    ],
+    "sles": [
+      "11.2"
+    ]
+  }
+}

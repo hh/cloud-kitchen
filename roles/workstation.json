@@ -1,0 +1,20 @@
+{
+  "name": "workstation",
+  "description": "Used to identify 'knife' workstations, and set them up",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "workstation": {
+      "username": "opscode",
+      "password": "opscode"
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[base]",
+    "recipe[ii-knife-workstation]"
+  ],
+  "env_run_lists": {
+  }
+}

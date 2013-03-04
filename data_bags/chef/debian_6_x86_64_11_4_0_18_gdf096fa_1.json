@@ -1,0 +1,13 @@
+{
+  "id": "debian_6_x86_64_11_4_0_18_gdf096fa_1",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/debian/6/x86_64/chef_11.4.0-18-gdf096fa-1.debian.6.0.5_amd64.deb",
+  "filename": "chef_11.4.0-18-gdf096fa-1.debian.6.0.5_amd64.deb",
+  "arch": "x86_64",
+  "checksum": "fa232c97fd9ba1954b33b4220b233d597cdba33b1183e0d4b7c71d399317a40d",
+  "version": "11.4.0-18-gdf096fa-1",
+  "os": {
+    "debian": [
+      "6"
+    ]
+  }
+}

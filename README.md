@@ -14,3 +14,4 @@ bundle exec berks install --path ./cookbooks/
 # running chef within the bundle fails... I'm using fullstack 11.4.0
 chef-solo -c .chef/create-usb-solo.rb
 ```
+

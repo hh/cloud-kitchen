@@ -8,43 +8,35 @@
     },
     "gerrit": {
       "http_proxy": {
-        "host_name": "cd-gerrit.training.net"
+        "host_name": "cd-gerrit.training"
       },
-      "canonical_url": "http://cd-gerrit.training.net/",
+      "canonical_url": "http://cd-gerrit.training/",
       "smtp_server": "localhost",
-      "smtp_from": "Code Review <no-reply@training.com>",
-      "auth_method": "LDAP",
-      "ldap": {
-        "server": "ldaps://training.net",
-        "accountBase": "dc=training,dc=net",
-        "groupBase": "dc=training,dc=net",
-        "sslVerify": "false",
-        "username": "CN=oppjnk1,OU=Users,OU=Accounts,DC=training,DC=net",
-        "password": "kuGUc5tHAtEg"
-      }
+      "smtp_from": "Code Review <no-reply@training>"
     },
     "jenkins": {
       "http_proxy": {
         "host_name": "cd-jenkins.training",
         "variant": "nginx"
       },
-      "server": {
-        "plugins": [
-          "git",
-          "build-pipeline-plugin",
-          "github-api",
-          "github",
-          "greenballs",
-          "analysis-core",
-          "warnings",
-          "parameterized-trigger",
-          "cobertura",
-          "sounds",
-          "throttle-concurrents",
-          "build-flow-plugin",
-          "groovyaxis"
-        ]
-      }
+        "server": {
+            "host":"localhost",
+            "plugins": [
+                "git",
+                "build-pipeline-plugin",
+                "github-api",
+                "github",
+                "greenballs",
+                "analysis-core",
+                "warnings",
+                "parameterized-trigger",
+                "cobertura",
+                "sounds",
+                "throttle-concurrents",
+                "build-flow-plugin",
+                "groovyaxis"
+            ]
+        }
     },
     "cd-tools": {
       "jenkins": {
@@ -58,6 +50,7 @@
       },
       "gerrit": {
         "hostname": "localhost",
+        "admin_user": "gerrit_admin",
         "front_end_url": "http://cd-gerrit.training/"
       }
     }
@@ -79,7 +72,7 @@
     "recipe[sqlite]",
     "recipe[redisio::install]",
     "recipe[redisio::enable]",
-    "recipe[metarepo]",
+    "recipe[cd-tools::metarepo]",
     "recipe[cd-tools]"
   ],
   "env_run_lists": {

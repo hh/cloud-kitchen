@@ -1,0 +1,37 @@
+{
+  "name": "cloud-kitchen",
+  "description": "The machine that will run virtualization of everything else",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "ntp": {
+      "is_server": true
+    },
+    "virtualization": {
+      "lxc": {
+        "network_link": "lxcbr0"
+      },
+      "qemu": {
+        "vnc_listen": "0.0.0.0"
+      }
+    },
+    "workstation": {
+      "username": "opscode"
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[chef-solo-search]",
+    "recipe[apt]",
+    "recipe[apt::cacher-ng]",
+    "recipe[ntp]",
+    "recipe[ii-lxc]",
+    "recipe[ii-chef-server::open-source]",
+    "role[fileserver]",
+    "recipe[ii-knife-workstation::firefox]",
+    "recipe[ii-knife-workstation::packages]"
+  ],
+  "env_run_lists": {
+  }
+}

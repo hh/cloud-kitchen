@@ -1,0 +1,29 @@
+{
+  "name": "base",
+  "description": "Applied most VM roles",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "ntp": {
+      "servers": [
+        "time"
+      ]
+    },
+    "resolver": {
+      "search": "training",
+      "nameservers": [
+        "10.12.13.1"
+      ]
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[apt::cacher-client]",
+    "recipe[apt]",
+    "recipe[ntp]",
+    "recipe[resolver]"
+  ],
+  "env_run_lists": {
+  }
+}

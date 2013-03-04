@@ -1,0 +1,16 @@
+{
+  "id": "windows_2008r2_x86_64_11_4_0_18_gdf096fa_1",
+  "source": "https://opscode-omnitruck-release.s3.amazonaws.com/windows/2008r2/x86_64/chef-client-11.4.0-18-gdf096fa-1.windows.msi",
+  "filename": "chef-client-11.4.0-18-gdf096fa-1.windows.msi",
+  "arch": "x86_64",
+  "checksum": "ff18820f4b4399df51e7b515cd5881c658a4768d4516c63adaed429aa840b713",
+  "version": "11.4.0-18-gdf096fa-1",
+  "os": {
+    "windows": [
+      "2008",
+      "2003r2",
+      "2008r2",
+      "2012"
+    ]
+  }
+}

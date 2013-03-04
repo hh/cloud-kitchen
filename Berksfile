@@ -29,6 +29,8 @@ else
 end
 
 cookbook 'chef-solo-search', github: 'edelight/chef-solo-search', ref: 'master'
+cookbook 'gitlab', github: 'atomic-penguin/cookbook-gitlab', ref: 'master'
+#cookbook 'gitlab', github: 'dosire/cookbook-gitlab', ref: 'gitlabdotcom'
 
 # we need to search local data bags!
 cookbook 'apache2'
@@ -54,4 +56,4 @@ cookbook 'nodejs'
 cookbook 'maven'
 cookbook 'sqlite'
 cookbook 'redisio'
-cookbook 'metarepo'
+# cookbook 'metarepo' # the community version is hw-ops,fujin version...
