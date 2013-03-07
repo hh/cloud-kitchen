@@ -1,0 +1,13 @@
+{
+  "id": "ubuntu_desktop_12_04_2",
+  "source": "ubuntu-12.04.2-desktop-amd64.iso",
+  "filename": "ubuntu-12.04.2-desktop-amd64.iso",
+  "arch": "x86_64",
+  "checksum": "980042c434321c67a0cd10e043aec6376bf9d1008179f47ac781bbaf732051cc",
+  "version": "12.04.2",
+  "semantic_version": "12.04.2",
+  "os": {
+    "ubuntu": "12.04.2",
+    "flavor": "desktop"
+  }
+}

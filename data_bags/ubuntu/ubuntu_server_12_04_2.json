@@ -1,0 +1,13 @@
+{
+  "id": "ubuntu_server_12_04_2",
+  "source": "ubuntu-12.04.2-server-amd64.iso",
+  "filename": "ubuntu-12.04.2-server-amd64.iso",
+  "arch": "x86_64",
+  "checksum": "63b7c9474398295355f01f57a1657405ae85b1c21953c6c996bbb6374f07e3aa",
+  "version": "12.04.2",
+  "semantic_version": "12.04.2",
+  "os": {
+    "ubuntu": "12.04.2",
+    "flavor": "server"
+  }
+}

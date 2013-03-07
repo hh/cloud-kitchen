@@ -1,0 +1,13 @@
+{
+  "id": "ubuntu_server_12_10_0",
+  "source": "ubuntu-12.10-server-amd64+mac.iso",
+  "filename": "ubuntu-12.10-server-amd64+mac.iso",
+  "arch": "x86_64",
+  "checksum": "4c3cc92224b73b4df7b697dd06314156a0af0705aa416cfd27b1015231cbe8e2",
+  "version": "12.10",
+  "semantic_version": "12.10.0",
+  "os": {
+    "ubuntu": "12.10",
+    "flavor": "server"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ubuntu_desktop_12_10_0",
+  "source": "ubuntu-12.10-desktop-amd64+mac.iso",
+  "filename": "ubuntu-12.10-desktop-amd64+mac.iso",
+  "arch": "x86_64",
+  "checksum": "99506b1d50059821c30e354afd1082936712f7213a7390b75ef70f9f7ec10dc8",
+  "version": "12.10",
+  "semantic_version": "12.10.0",
+  "os": {
+    "ubuntu": "12.10",
+    "flavor": "desktop"
+  }
+}

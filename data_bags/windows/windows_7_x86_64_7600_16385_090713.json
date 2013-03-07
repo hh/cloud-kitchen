@@ -1,0 +1,12 @@
+{
+  "id": "windows_7_x86_64_7600_16385_090713",
+  "source": "http://wb.dlservice.microsoft.com/dl/download/release/Win7/3/b/a/3bac7d87-8ad2-4b7a-87b3-def36aee35fa/7600.16385.090713-1255_x64fre_enterprise_en-us_EVAL_Eval_Enterprise-GRMCENXEVAL_EN_DVD.iso",
+  "filename": "7600.16385.090713-1255_x64fre_enterprise_en-us_EVAL_Eval_Enterprise-GRMCENXEVAL_EN_DVD.iso",
+  "arch": "x86_64",
+  "checksum": "2c16c73388a5c02a0ec4cd8b9e5c14ba28b7b45d13d0c9c7d44459feecc0385f",
+  "version": "7600",
+  "semantic_version": "7600.16385.090713",
+  "os": {
+    "windows": "7"
+  }
+}

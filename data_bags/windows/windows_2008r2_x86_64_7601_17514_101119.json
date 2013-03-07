@@ -1,0 +1,12 @@
+{
+  "id": "windows_2008r2_x86_64_7601_17514_101119",
+  "source": "http://care.dlservice.microsoft.com//dl/download/7/5/E/75EC4E54-5B02-42D6-8879-D8D3A25FBEF7/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso",
+  "filename": "7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso",
+  "arch": "x86_64",
+  "checksum": "30832ad76ccfa4ce48ccb936edefe02079d42fb1da32201bf9e3a880c8ed6312",
+  "version": "7600",
+  "semantic_version": "7601.17514.101119",
+  "os": {
+    "windows": "2008r2"
+  }
+}
