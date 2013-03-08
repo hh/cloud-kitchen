@@ -1,0 +1,17 @@
+{
+  "id": "osx_0_0_66",
+  "source": "https://macvim.googlecode.com/files/MacVim-snapshot-66-Snow-Leopard.tbz",
+  "filename": "MacVim-snapshot-66-Snow-Leopard.tbz",
+  "arch": [
+    "x86_64",
+    "i386"
+  ],
+  "checksum": "7c3248ffbb7ccb6be0199e87ebe8465d22d44c243b84540e0233ded32c8b2905",
+  "version": "0.0.66",
+  "semantic_version": "0.0.66",
+  "os": {
+    "osx": [
+      "10.6"
+    ]
+  }
+}

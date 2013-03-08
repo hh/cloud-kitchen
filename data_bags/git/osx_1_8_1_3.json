@@ -1,0 +1,19 @@
+{
+  "id": "osx_1_8_1_3",
+  "source": "https://git-osx-installer.googlecode.com/files/git-1.8.1.3-intel-universal-snow-leopard.dmg",
+  "filename": "git-1.8.1.3-intel-universal-snow-leopard.dmg",
+  "arch": [
+    "i386",
+    "x86_64"
+  ],
+  "checksum": "88b4ad9599da90184c5114ee86672b3c9c526d73268366e1b1061210dc5acc46",
+  "version": "1.8.1.3",
+  "semantic_version": "1.8.13",
+  "os": {
+    "osx": [
+      "10.6",
+      "10.7",
+      "10.8"
+    ]
+  }
+}

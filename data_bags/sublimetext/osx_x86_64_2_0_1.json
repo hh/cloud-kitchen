@@ -1,0 +1,16 @@
+{
+  "id": "osx_x86_64_2_0_1",
+  "source": "http://c758482.r82.cf2.rackcdn.com/Sublime Text 2.0.1.dmg",
+  "filename": "Sublime Text 2.0.1.dmg",
+  "arch": "x86_64",
+  "checksum": "2fd9e50f1dd43813c9aaa1089f50690f3fe733bc5069339db01ebcaf18c6b736",
+  "version": "2.0.1",
+  "semantic_version": "2.0.1",
+  "os": {
+    "osx": [
+      "10.6",
+      "10.7",
+      "10.8"
+    ]
+  }
+}

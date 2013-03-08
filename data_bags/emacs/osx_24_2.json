@@ -1,0 +1,19 @@
+{
+  "id": "osx_24_2",
+  "source": "http://emacsformacosx.com/emacs-builds/Emacs-24.2-universal-10.6.8.dmg",
+  "filename": "Emacs-24.2-universal-10.6.8.dmg",
+  "arch": [
+    "x86_64",
+    "i386"
+  ],
+  "checksum": "04ed6dc2efe078ef72e5802c8328c3a933734b3d32a696a4777279b8873a3ee9",
+  "version": "24.2",
+  "semantic_version": "24.2.0",
+  "os": {
+    "osx": [
+      "10.6",
+      "10.7",
+      "10.8"
+    ]
+  }
+}

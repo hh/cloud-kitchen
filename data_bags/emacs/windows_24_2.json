@@ -1,0 +1,17 @@
+{
+  "id": "windows_24_2",
+  "source": "http://mirrors.kernel.org/gnu/emacs/windows/emacs-24.2-bin-i386.zip",
+  "filename": "emacs-24.2-bin-i386.zip",
+  "arch": "i386",
+  "checksum": "9b070ea232902aaad5de4ad8096c5a7f15b038b97acb9d704b2293a62c3f8d75",
+  "version": "24.2",
+  "semantic_version": "24.2.0",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  }
+}

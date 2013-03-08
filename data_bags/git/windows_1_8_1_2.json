@@ -1,0 +1,20 @@
+{
+  "id": "windows_1_8_1_2",
+  "source": "https://msysgit.googlecode.com/files/Git-1.8.1.2-preview20130201.exe",
+  "filename": "Git-1.8.1.2-preview20130201.exe",
+  "arch": [
+    "i386",
+    "x86_64"
+  ],
+  "checksum": "796ac91f0c7456b53f2717a81f475075cc581af2f447573131013cac5b63bb2a",
+  "version": "1.8.1.2",
+  "semantic_version": "1.8.12",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  }
+}

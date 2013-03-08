@@ -1,0 +1,17 @@
+{
+  "id": "windows_x86_64_2_0_1",
+  "source": "http://c758482.r82.cf2.rackcdn.com/Sublime Text 2.0.1 x64 Setup.exe",
+  "filename": "Sublime Text 2.0.1 x64 Setup.exe",
+  "arch": "x86_64",
+  "checksum": "2120732bcc511baa2737ff157c063129e7525642e3893fc3dc01041a3b8f9a4e",
+  "version": "2.0.1",
+  "semantic_version": "2.0.1",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  }
+}

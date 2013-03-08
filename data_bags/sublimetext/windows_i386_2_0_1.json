@@ -1,0 +1,17 @@
+{
+  "id": "windows_i386_2_0_1",
+  "source": "http://c758482.r82.cf2.rackcdn.com/Sublime Text 2.0.1 Setup.exe",
+  "filename": "Sublime Text 2.0.1 Setup.exe",
+  "arch": "i386",
+  "checksum": "6437659c4f3a533e87b2e29e75c22c4e223932e2b73145d1c493dbd32f2bdb72",
+  "version": "2.0.1",
+  "semantic_version": "2.0.1",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  }
+}

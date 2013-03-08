@@ -1,0 +1,17 @@
+{
+  "id": "windows_7_3_46",
+  "source": "http://ftp.vim.org/pub/vim/pc/gvim73_46.exe",
+  "filename": "gvim73_46.exe",
+  "arch": "i386",
+  "checksum": "5386cad94714a5eee22fbb70fcfdb97be2f88c383968b2774d91c837ee889def",
+  "version": "7.3.46",
+  "semantic_version": "7.3.46",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  }
+}
