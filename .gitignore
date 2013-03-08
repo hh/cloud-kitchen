@@ -24,3 +24,4 @@ vendor/
 *.msi
 *1.mac_os_x*
 .cache/
+.writeable

@@ -1,0 +1,14 @@
+{
+  "id": "extensionpack_4_2_8",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.8/Oracle_VM_VirtualBox_Extension_Pack-4.2.8.vbox-extpack",
+  "filename": "Oracle_VM_VirtualBox_Extension_Pack-4.2.8.vbox-extpack",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "fa579416f382b58c4e93d3740d076ceba728e28d987e51aced5865a46cb9111c",
+  "version": "4.2.8",
+  "semantic_version": "4.2.8",
+  "os": {
+  }
+}

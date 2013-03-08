@@ -1,0 +1,18 @@
+{
+  "id": "osx_4_2_8",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.8/VirtualBox-4.2.8-83876-OSX.dmg",
+  "filename": "VirtualBox-4.2.8-83876-OSX.dmg",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "e090da9766a1780a4f1fc6b3b85fe8b7ce71c8030d1fda9e7178716009d69a33",
+  "version": "4.2.8",
+  "semantic_version": "4.2.8",
+  "os": {
+    "mac_os_x": [
+      "10.7",
+      "10.8"
+    ]
+  }
+}

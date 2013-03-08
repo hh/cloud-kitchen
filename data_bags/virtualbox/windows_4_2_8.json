@@ -1,0 +1,20 @@
+{
+  "id": "windows_4_2_8",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.8/VirtualBox-4.2.8-83876-Win.exe",
+  "filename": "VirtualBox-4.2.8-83876-Win.exe",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "7864b538152b6ba672f94ac0e2be7e6a892d686bcf8035cd155e1fb1578ac77a",
+  "version": "4.2.8",
+  "semantic_version": "4.2.8",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  }
+}

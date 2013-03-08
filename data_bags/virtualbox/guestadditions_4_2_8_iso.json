@@ -1,0 +1,14 @@
+{
+  "id": "guestadditions_4_2_8_iso",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.8/VBoxGuestAdditions_4.2.8.iso",
+  "filename": "VBoxGuestAdditions_4.2.8.iso",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "04a5402d8dcdefc83ffb2785351ddc57758781a3759137974469189392ae4ad5",
+  "version": "4.2.8",
+  "semantic_version": "4.2.8",
+  "os": {
+  }
+}
