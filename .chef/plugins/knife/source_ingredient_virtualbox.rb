@@ -81,6 +81,7 @@ module KnifePlugins
           dbi_safe_ver = virtualbox_ver.gsub('.','_')
           package_filename = package_url
           package_url = base_url + ver_url + package_filename
+          desc = 'VirtualBox'
           arch = case ::File.basename(package_filename)
                  when /(x86_64|amd64)/
                    'x86_64'
@@ -126,12 +127,14 @@ module KnifePlugins
                  }x
             os = {}
             dbi_name = "guestadditions_#{dbi_safe_ver}_iso"
+            desc = 'VirtualBox Guest Additions ISO'
           when %r{
                    (?<package_ver> \d+\.\d+\.\d+ ){0}
                    Oracle_VM_VirtualBox_Extension_Pack-\g<package_ver>\.vbox-extpack
                  }x
             os = {}
             dbi_name = "extensionpack_#{dbi_safe_ver}"
+            desc = 'VirtualBox Extension Pack'
           when %r{
                    (?<parch> (x86_64|i386) ){0}
                    (?<pver> \d+\.\d+\.\d+ ){0}
@@ -195,6 +198,7 @@ module KnifePlugins
           artifacts[dbi_name][:version] ||= virtualbox_ver
           artifacts[dbi_name][:semantic_version] ||= semantic_ver
           artifacts[dbi_name][:os] ||= os
+          artifacts[dbi_name][:desc] ||= desc
         end
       end
       

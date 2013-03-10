@@ -102,6 +102,7 @@ module KnifePlugins
         artifacts[dbi_name][:version] ||= git_ver
         artifacts[dbi_name][:semantic_version] ||= semantic_ver
         artifacts[dbi_name][:os] ||= os
+        artifacts[dbi_name][:desc] ||= 'Git'
       end
       
       base_url = 'https://code.google.com/p/git-osx-installer/downloads/list?can=3&q=OS+X'
@@ -120,7 +121,7 @@ module KnifePlugins
         else
           semantic_ver = git_ver = mmp_ver
         end
-        next if not Chef::VersionConstraint.new(">= 1.8.13").include? semantic_ver
+        next if not Chef::VersionConstraint.new(">= 1.8.12").include? semantic_ver
         dbi_safe_ver = git_ver.gsub('.','_')
         arch = ['i386','x86_64']
         os = {'osx' => ['10.6','10.7','10.8']}
@@ -142,6 +143,7 @@ module KnifePlugins
         artifacts[dbi_name][:version] ||= git_ver
         artifacts[dbi_name][:semantic_version] ||= semantic_ver
         artifacts[dbi_name][:os] ||= os
+        artifacts[dbi_name][:desc] ||= 'Git'
       end
     
       #puts JSON.pretty_generate(artifacts)

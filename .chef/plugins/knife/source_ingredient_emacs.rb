@@ -92,6 +92,7 @@ module KnifePlugins
         artifacts[dbi_name][:version] ||= emacs_ver
         artifacts[dbi_name][:semantic_version] ||= semantic_ver
         artifacts[dbi_name][:os] ||= os
+        artifacts[dbi_name][:desc] ||= 'Emacs'
       end
       
       base_url = 'http://emacsformacosx.com'
@@ -133,6 +134,7 @@ module KnifePlugins
         artifacts[dbi_name][:version] ||= emacs_ver
         artifacts[dbi_name][:semantic_version] ||= semantic_ver
         artifacts[dbi_name][:os] ||= os
+        artifacts[dbi_name][:desc] ||= 'Emacs'
       end
     
       #puts JSON.pretty_generate(artifacts)

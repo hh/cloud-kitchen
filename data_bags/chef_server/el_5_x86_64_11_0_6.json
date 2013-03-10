@@ -5,6 +5,7 @@
   "arch": "x86_64",
   "checksum": "a1911371a3e6d6432dac45deab1e8d72f3570aaa0784abb47f79364e789772f1",
   "version": "11.0.6",
+  "desc": "Chef Server",
   "os": {
     "el": [
       "5"

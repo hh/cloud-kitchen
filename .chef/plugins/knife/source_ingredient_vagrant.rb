@@ -140,6 +140,7 @@ module KnifePlugins
           artifacts[dbi_name][:version] ||= vagrant_ver
           artifacts[dbi_name][:semantic_version] ||= semantic_ver
           artifacts[dbi_name][:os] ||= os
+          artifacts[dbi_name][:desc] ||= "Vagrant"
         end
       end
       

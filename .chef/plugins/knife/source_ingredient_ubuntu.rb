@@ -79,11 +79,11 @@ module KnifePlugins
           h[-3..-1] == 'iso'
         end.map do |l|
           #artifacts[l['href']]=true
-          iso_url = l['href']
-          iso_filename = ::File.basename iso_url
+          iso_filename = l['href']
+          iso_url = base_url + l['href'] 
           cached_isofile = ::File.join(
             Chef::Config[:file_cache_path],iso_filename)
-          download_file(base_url + dist_link['href'] + iso_url,cached_isofile)
+          download_file(iso_url,cached_isofile)
           flavor = iso_filename =~ /server/ ? 'server' : 'desktop'
           dbi_name = "ubuntu_#{flavor}_#{semantic_ver.gsub('.','_')}"
           arch = case iso_filename
@@ -99,7 +99,9 @@ module KnifePlugins
           artifacts[dbi_name][:checksum] ||= checksum(cached_isofile)
           artifacts[dbi_name][:version] ||= version
           artifacts[dbi_name][:semantic_version] ||= semantic_ver
-          artifacts[dbi_name][:os] ||= {ubuntu: version, flavor: flavor}
+          artifacts[dbi_name][:os] ||= {ubuntu: [version]}
+          artifacts[dbi_name][:flavor] ||= flavor
+          artifacts[dbi_name][:desc] ||= "Ubuntu #{flavor} ISO"
         end
       end
       

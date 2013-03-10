@@ -5,6 +5,7 @@
   "arch": "x86_64",
   "checksum": "c85e1606ce20eb5008e91b0dd218f325600567b18c453c1eeea71aba241d3566",
   "version": "11.4.0-1",
+  "desc": "Chef Omnibus Client",
   "os": {
     "windows": [
       "2008",

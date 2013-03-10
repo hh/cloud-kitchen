@@ -10,5 +10,6 @@
   "version": "4.2.8",
   "semantic_version": "4.2.8",
   "os": {
-  }
+  },
+  "desc": "VirtualBox Guest Additions ISO"
 }

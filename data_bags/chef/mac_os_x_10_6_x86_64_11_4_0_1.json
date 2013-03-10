@@ -5,6 +5,7 @@
   "arch": "x86_64",
   "checksum": "402adf2ac11ef503e41395d37989a564d6efd2aec24cc1a537976f5db157ab87",
   "version": "11.4.0-1",
+  "desc": "Chef Omnibus Client",
   "os": {
     "mac_os_x": [
       "10.6"

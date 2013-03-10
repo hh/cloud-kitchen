@@ -104,12 +104,13 @@ module KnifePlugins
         
         # New we have all the artifact details
         artifacts[dbi_name] ||= Hash.new
-        artifacts[dbi_name][:source] ||= package_url
+        artifacts[dbi_name][:source] ||= URI.escape(package_url)
         artifacts[dbi_name][:filename] ||= package_filename
         artifacts[dbi_name][:arch] ||= arch
         artifacts[dbi_name][:checksum] ||= checksum(cached_packagefile)
         artifacts[dbi_name][:version] ||= sublimetext_ver
         artifacts[dbi_name][:semantic_version] ||= semantic_ver
+        artifacts[dbi_name][:desc] ||= "Sublime Text"
         artifacts[dbi_name][:os] ||= osvers
       end
       #puts JSON.pretty_generate(artifacts)

@@ -5,6 +5,7 @@
   "arch": "x86_64",
   "checksum": "5ffd59358ab1d3ade689480c2d912f2c950e157307fda47d06a3f4bd0a3cad93",
   "version": "11.4.0-1",
+  "desc": "Chef Omnibus Client",
   "os": {
     "debian": [
       "6"

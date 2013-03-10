@@ -105,6 +105,7 @@ module KnifePlugins
         artifacts[dbi_name][:version] ||= vim_ver
         artifacts[dbi_name][:semantic_version] ||= semantic_ver
         artifacts[dbi_name][:os] ||= os
+        artifacts[dbi_name][:desc] ||= 'GVim'
       end
       
       base_url = 'https://code.google.com/p/macvim/downloads/list'
@@ -152,8 +153,9 @@ module KnifePlugins
         artifacts[dbi_name][:version] ||= vim_ver
         artifacts[dbi_name][:semantic_version] ||= semantic_ver
         artifacts[dbi_name][:os] ||= os
+        artifacts[dbi_name][:desc] ||= 'MacVim'
       end
-    
+
       #puts JSON.pretty_generate(artifacts)
       # Write out all data bag json
       data_bag_item_dir = ::File.join(Chef::Config[:data_bag_path],data_bag_name)

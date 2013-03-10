@@ -1,11 +1,12 @@
 {
   "id": "linux_x86_64_2_0_1",
-  "source": "http://c758482.r82.cf2.rackcdn.com/Sublime Text 2.0.1 x64.tar.bz2",
+  "source": "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1%20x64.tar.bz2",
   "filename": "Sublime Text 2.0.1 x64.tar.bz2",
   "arch": "x86_64",
   "checksum": "858df93325334b7c7ed75daac26c45107e0c7cd194d522b42a6ac69fae6de404",
   "version": "2.0.1",
   "semantic_version": "2.0.1",
+  "desc": "Sublime Text",
   "os": {
     "debian": [
       "6"

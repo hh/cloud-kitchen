@@ -7,6 +7,10 @@
   "version": "7600",
   "semantic_version": "7600.16385.090713",
   "os": {
-    "windows": "7"
-  }
+    "windows": [
+      "7"
+    ]
+  },
+  "desc": "Windows GRMCENXEVAL_EN_DVD ISO",
+  "flavor": "Windows GRMCENXEVAL_EN_DVD ISO"
 }

@@ -42,7 +42,7 @@ module KnifePlugins
         FileUtils.touch(File.join(Chef::Config[:data_bag_path],'.writeable'))
         FileUtils.touch(File.join(Chef::Config[:file_cache_path],'.writeable'))
       rescue
-        puts "Set role_path and file_cache_path in knife.rb to somewhere writable"
+        puts "Set data_bag_path and file_cache_path in knife.rb to somewhere writable"
         exit 1
       end
       puts <<-EOS
@@ -80,6 +80,7 @@ EOS
                when /./
                  'i686'
                end
+        flavor = iso_filename.split('-').last.split('.').first
         semantic_ver = iso_filename.split('-')[0]
         dbi_name = "windows_#{osver.to_s[3..-1]}_#{arch}_#{semantic_ver.gsub('.','_')}"
         # New we have all the artifact details
@@ -88,9 +89,11 @@ EOS
         artifacts[dbi_name][:filename] ||= iso_filename
         artifacts[dbi_name][:arch] ||= arch
         artifacts[dbi_name][:checksum] ||= checksum(cached_isofile)
-        artifacts[dbi_name][:version] ||= '7600'
+        artifacts[dbi_name][:version] ||= iso_filename[0..3]
         artifacts[dbi_name][:semantic_version] ||= semantic_ver
-        artifacts[dbi_name][:os] ||= { 'windows' => osver.to_s[3..-1]}
+        artifacts[dbi_name][:os] ||= { 'windows' => [osver.to_s[3..-1]]}
+        artifacts[dbi_name][:desc] ||= "Windows #{flavor} ISO"
+        artifacts[dbi_name][:flavor] ||= "Windows #{flavor} ISO"
       end
 
       #puts JSON.pretty_generate(artifacts)

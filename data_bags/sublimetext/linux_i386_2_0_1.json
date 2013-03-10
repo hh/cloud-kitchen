@@ -1,11 +1,12 @@
 {
   "id": "linux_i386_2_0_1",
-  "source": "http://c758482.r82.cf2.rackcdn.com/Sublime Text 2.0.1.tar.bz2",
+  "source": "http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.1.tar.bz2",
   "filename": "Sublime Text 2.0.1.tar.bz2",
   "arch": "i386",
   "checksum": "4e752da357fbaf41b74e45e2caaea5c07813216c273b6f8770abd5621daddbf4",
   "version": "2.0.1",
   "semantic_version": "2.0.1",
+  "desc": "Sublime Text",
   "os": {
     "debian": [
       "6"

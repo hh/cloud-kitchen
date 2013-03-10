@@ -18,5 +18,6 @@
     "debian": [
       "6"
     ]
-  }
+  },
+  "desc": "Vagrant"
 }

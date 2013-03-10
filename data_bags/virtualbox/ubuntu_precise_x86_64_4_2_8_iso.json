@@ -10,5 +10,6 @@
     "ubuntu": [
       "12.04"
     ]
-  }
+  },
+  "desc": "VirtualBox"
 }

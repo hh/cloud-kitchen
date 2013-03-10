@@ -5,6 +5,7 @@
   "arch": "x86_64",
   "checksum": "aea0f3e44a298e8e0f3b92dd18232b01a6d58ef7c8431bf6c7f15778dffaf3b6",
   "version": "11.0.6",
+  "desc": "Chef Server",
   "os": {
     "ubuntu": [
       "10.04",

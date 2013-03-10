@@ -5,6 +5,7 @@
   "arch": "x86_64",
   "checksum": "836b0ba2ce847d877d19abf05d102bf64a7d5ab7299963030b3114811be30569",
   "version": "11.4.0-18-gdf096fa-1",
+  "desc": "Chef Omnibus Client",
   "os": {
     "ubuntu": [
       "10.04",
