@@ -1,0 +1,15 @@
+{
+  "id": "synergy_1_4_10_osx_108_x86_64",
+  "source": "https://synergy.googlecode.com/files/synergy-1.4.10-MacOSX108-x86_64.dmg",
+  "filename": "synergy-1.4.10-MacOSX108-x86_64.dmg",
+  "arch": "x86_64",
+  "checksum": "d0584b0660521734cd1e58d82dd46e7e84d611314de6b3b08f4cb09c919ff73c",
+  "version": "1.4.10",
+  "semantic_version": "1.4.10",
+  "os": {
+    "osx": [
+      "10.8"
+    ]
+  },
+  "desc": "Synergy"
+}
