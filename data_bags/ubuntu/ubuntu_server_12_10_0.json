@@ -1,6 +1,6 @@
 {
   "id": "ubuntu_server_12_10_0",
-  "source": "http://mirror.anl.gov/pub/ubuntu-iso/CDs/ubuntu-12.10-server-amd64+mac.iso",
+  "source": "http://mirror.anl.gov/pub/ubuntu-iso/CDs/quantal/ubuntu-12.10-server-amd64+mac.iso",
   "filename": "ubuntu-12.10-server-amd64+mac.iso",
   "arch": "x86_64",
   "checksum": "4c3cc92224b73b4df7b697dd06314156a0af0705aa416cfd27b1015231cbe8e2",

@@ -80,7 +80,7 @@ module KnifePlugins
         end.map do |l|
           #artifacts[l['href']]=true
           iso_filename = l['href']
-          iso_url = base_url + l['href'] 
+          iso_url = base_url + dist_link['href'] + l['href']
           cached_isofile = ::File.join(
             Chef::Config[:file_cache_path],iso_filename)
           download_file(iso_url,cached_isofile)

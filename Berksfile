@@ -44,7 +44,7 @@ cookbook 'jenkins'
 cookbook 'resolver'
 cookbook 'runit'
 cookbook 'ucspi-tcp'
-
+cookbook 'virtualbox'
 
 
 # specifically for easybake.cd

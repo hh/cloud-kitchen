@@ -1,6 +1,6 @@
 {
   "id": "ubuntu_server_12_04_2",
-  "source": "http://mirror.anl.gov/pub/ubuntu-iso/CDs/ubuntu-12.04.2-server-amd64.iso",
+  "source": "http://mirror.anl.gov/pub/ubuntu-iso/CDs/precise/ubuntu-12.04.2-server-amd64.iso",
   "filename": "ubuntu-12.04.2-server-amd64.iso",
   "arch": "x86_64",
   "checksum": "63b7c9474398295355f01f57a1657405ae85b1c21953c6c996bbb6374f07e3aa",

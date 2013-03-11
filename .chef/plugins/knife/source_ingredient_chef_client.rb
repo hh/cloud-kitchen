@@ -94,6 +94,7 @@ module KnifePlugins
               artifacts[dbi_name][:version] ||= chef_ver
               artifacts[dbi_name][:desc] ||= "Chef Omnibus Client"
               artifacts[dbi_name][:os] ||= {os => [os_ver]}
+              artifacts[dbi_name][:semantic_version] ||= semantic_ver
               if not artifacts[dbi_name][:os].include? os
                 artifacts[dbi_name][:os][os] = [os_ver]
               end

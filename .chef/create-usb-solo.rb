@@ -16,13 +16,13 @@ open(solo_json_file,'w+') do |f|
       "run_list" => [
         "recipe[chef-solo-search]",
         "recipe[ii-chef-server::cache-files]",
-        "recipe[ii-fileserver::cache-files]",
+        "recipe[ii-fileserver::ingredients]",
         "recipe[ii-usb::create-usb-solo]"
         ],
       'ii-usb' => {
         'src-chef-repo' => "#{current_dir}/..", # for now we'll just copy ourselves... I need to figure out caching
         'target-device' => ENV['TARGETUSB'], # We do this to force setting it at runtime
-        'partition-size'=> '6000' 
+        'partition-size'=> '-1' # set this to the number of megabytes you want the partition to be, -1 means as big as the usb
       },
       'private_chef' => {
         'package_file' => "private-chef_1.4.4-1.ubuntu.11.04_amd64.deb",
