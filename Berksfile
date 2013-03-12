@@ -11,6 +11,7 @@ if ENV['DEV']
     cookbook 'ii-knife-workstation', path: "#{cookbooks_dir}/ii-knife-workstation"
     cookbook 'ii-chef-server', path: "#{cookbooks_dir}/ii-chef-server"
     cookbook 'ii-fileserver', path: "#{cookbooks_dir}/ii-fileserver"
+    cookbook 'easybake-workstation', path: "#{cookbooks_dir}/easybake-workstation"
     cookbook 'debmirror', path: "#{cookbooks_dir}/debmirror"
     cookbook 'cd-tools', path: "#{cookbooks_dir}/cd-tools"
     cookbook 'gerrit', path: "#{cookbooks_dir}/gerrit"
@@ -22,6 +23,7 @@ else
     cookbook 'ii-knife-workstation', github: 'ii-cookbooks/ii-knife-workstation', ref: 'master'
     cookbook 'ii-chef-server', github: 'ii-cookbooks/ii-chef-server', ref: 'master'
     cookbook 'ii-fileserver', github: 'ii-cookbooks/ii-fileserver', ref: 'master'
+    cookbook 'easybake-workstation', github: 'easybake-cookbooks/easybake-workstation', ref: 'master'
     cookbook 'debmirror', github: 'hh-cookbooks/debmirror', ref: 'master'
     cookbook 'cd-tools', github: 'easybake-recipes/cd-tools', ref: 'master'
     cookbook 'gerrit', github: 'easybake-recipes/gerrit', ref: 'master'
