@@ -1,0 +1,18 @@
+{
+  "id": "visual_studio_2012_0_0_2012",
+  "source": "http://download.microsoft.com/download/D/B/0/DB03922C-FF91-4845-B7F2-FC68595AB730/VS2012_ULT_enu.iso",
+  "filename": "VS2012_ULT_enu.iso",
+  "arch": "x86_64",
+  "checksum": "df57225332c820f3fae2ea13cb710afca04f1b79566c85f714628268a3d52bdb",
+  "version": "VS20",
+  "semantic_version": "0.0.2012",
+  "os": {
+    "windows": [
+      "7",
+      "2008r2",
+      "2012",
+      "8"
+    ]
+  },
+  "desc": "Visual Studio 2012 ISO"
+}
