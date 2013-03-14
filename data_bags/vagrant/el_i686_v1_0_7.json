@@ -1,0 +1,20 @@
+{
+  "id": "el_i686_v1_0_7",
+  "source": "http://files.vagrantup.com/packages/1e2d92d0ed73e28346bb74345c8e353bcab415fb/vagrant_i686.rpm",
+  "filename": "vagrant-v1.0.7_i686.rpm",
+  "arch": "i686",
+  "checksum": "1470770484588d64ac4504303d1e8f8156c8aa22f94f0f751fd468b4da48d925",
+  "version": "v1.0.7",
+  "semantic_version": "1.0.7",
+  "os": {
+    "el": [
+      "5",
+      "6"
+    ],
+    "sles": [
+      "11.2",
+      "12.2"
+    ]
+  },
+  "desc": "Vagrant"
+}

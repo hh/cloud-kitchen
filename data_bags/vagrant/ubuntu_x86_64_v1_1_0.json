@@ -1,0 +1,23 @@
+{
+  "id": "ubuntu_x86_64_v1_1_0",
+  "source": "http://files.vagrantup.com/packages/194948999371e9aee391d13845a0bdeb27e51ac0/vagrant_x86_64.deb",
+  "filename": "vagrant-v1.1.0_x86_64.deb",
+  "arch": "x86_64",
+  "checksum": "70024b642757517f7fc0747f736055f8b3e2febe669c779addfb6a014c848c79",
+  "version": "v1.1.0",
+  "semantic_version": "1.1.0",
+  "os": {
+    "ubuntu": [
+      "10.04",
+      "10.10",
+      "11.04",
+      "11.10",
+      "12.04",
+      "12.10"
+    ],
+    "debian": [
+      "6"
+    ]
+  },
+  "desc": "Vagrant"
+}
