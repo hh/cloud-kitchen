@@ -1,0 +1,16 @@
+{
+  "id": "windows_8_i686_9200_16384_WIN8_RTM_120725",
+  "source": "http://care.dlservice.microsoft.com/dl/download/5/3/C/53C31ED0-886C-4F81-9A38-F58CE4CE71E8/9200.16384.WIN8_RTM.120725-1247_X64FRE_ENTERPRISE_EVAL_EN-US-HRM_CENA_X64FREE_EN-US_DV5.ISO",
+  "filename": "9200.16384.WIN8_RTM.120725-1247_X64FRE_ENTERPRISE_EVAL_EN-US-HRM_CENA_X64FREE_EN-US_DV5.ISO",
+  "arch": "i686",
+  "checksum": "915db9d17fd13b928b83825e3453f4535cc9adfd7322301c30fc66b2ac0fa9cc",
+  "version": "9200",
+  "semantic_version": "9200.16384.WIN8_RTM.120725",
+  "os": {
+    "windows": [
+      "8"
+    ]
+  },
+  "desc": "Windows US_DV5 ISO",
+  "flavor": "Windows US_DV5 ISO"
+}
