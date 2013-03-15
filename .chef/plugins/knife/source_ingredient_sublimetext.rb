@@ -22,7 +22,8 @@ module KnifePlugins
 
     def download_file(source,destination)
       puts "Downloading #{source} to #{destination}"
-      uri = URI.parse source
+      enc_uri = URI.escape source
+      uri = URI.parse enc_uri
       http = Net::HTTP.new(uri.host, uri.port)
       if uri.class.to_s =~ /HTTPS/
         http.use_ssl = true
