@@ -10,5 +10,6 @@
     "debian": [
       "6"
     ]
-  }
+  },
+  "semantic_version": "11.4.0"
 }

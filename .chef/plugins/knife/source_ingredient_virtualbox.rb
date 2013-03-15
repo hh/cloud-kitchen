@@ -47,7 +47,7 @@ module KnifePlugins
         FileUtils.touch(File.join(Chef::Config[:data_bag_path],'.writeable'))
         FileUtils.touch(File.join(Chef::Config[:file_cache_path],'.writeable'))
       rescue
-        puts "Set role_path and file_cache_path in knife.rb to somewhere writable"
+        puts "Set data_bag_path and file_cache_path in knife.rb to somewhere writable"
         exit 1
       end
       data_bag_name = 'virtualbox' # maybe set this via cmdline later
@@ -186,7 +186,7 @@ module KnifePlugins
             Chef::Config[:file_cache_path],package_filename)
           if not ::File.exists? cached_packagefile
             # we should probably try to compare to SHA256 or something
-            download_file(package_url)
+            download_file(package_url,cached_packagefile)
           end
             
           # New we have all the artifact details
