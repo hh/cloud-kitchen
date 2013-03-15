@@ -10,5 +10,6 @@
     "mac_os_x": [
       "10.7"
     ]
-  }
+  },
+  "semantic_version": "11.4.0"
 }

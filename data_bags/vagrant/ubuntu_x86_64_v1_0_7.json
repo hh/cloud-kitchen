@@ -3,7 +3,7 @@
   "source": "http://files.vagrantup.com/packages/1e2d92d0ed73e28346bb74345c8e353bcab415fb/vagrant_x86_64.deb",
   "filename": "vagrant-v1.0.7_x86_64.deb",
   "arch": "x86_64",
-  "checksum": "66d76ec3b76e485a6aedc69e83d6a46bc25cc7763cd00374b3f31898d468184e",
+  "checksum": "dd8fa43d49f2879b0fe936b831f4fb6cd6349a98a6792cc1e22a2de03b78797a",
   "version": "v1.0.7",
   "semantic_version": "1.0.7",
   "os": {

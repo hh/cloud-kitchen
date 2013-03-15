@@ -3,7 +3,7 @@
   "source": "http://files.vagrantup.com/packages/194948999371e9aee391d13845a0bdeb27e51ac0/vagrant_i686.rpm",
   "filename": "vagrant-v1.1.0_i686.rpm",
   "arch": "i686",
-  "checksum": "4b0d4ba9f5f7907916b61d6ab38d92861f47bc888ed0263f4ec6424fedf1add7",
+  "checksum": "dd8fa43d49f2879b0fe936b831f4fb6cd6349a98a6792cc1e22a2de03b78797a",
   "version": "v1.1.0",
   "semantic_version": "1.1.0",
   "os": {
