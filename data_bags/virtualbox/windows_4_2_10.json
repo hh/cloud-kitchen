@@ -1,0 +1,21 @@
+{
+  "id": "windows_4_2_10",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.10/VirtualBox-4.2.10-84104-Win.exe",
+  "filename": "VirtualBox-4.2.10-84104-Win.exe",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "0b40e09fe16eea9d903cac1baec34c01934eb38a9c4a0d175506303b6123a7f4",
+  "version": "4.2.10",
+  "semantic_version": "4.2.10",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  },
+  "desc": "VirtualBox"
+}

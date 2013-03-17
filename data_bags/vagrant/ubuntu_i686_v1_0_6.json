@@ -3,7 +3,7 @@
   "source": "http://files.vagrantup.com/packages/476b19a9e5f499b5d0b9d4aba5c0b16ebe434311/vagrant_i686.deb",
   "filename": "vagrant-v1.0.6_i686.deb",
   "arch": "i686",
-  "checksum": "dd8fa43d49f2879b0fe936b831f4fb6cd6349a98a6792cc1e22a2de03b78797a",
+  "checksum": "2c644bf26a3a31a71edf8373d7e8bbdb7ab5e497c0913a2601c087a807043196",
   "version": "v1.0.6",
   "semantic_version": "1.0.6",
   "os": {

@@ -3,7 +3,7 @@
   "source": "http://files.vagrantup.com/packages/194948999371e9aee391d13845a0bdeb27e51ac0/vagrant_x86_64.rpm",
   "filename": "vagrant-v1.1.0_x86_64.rpm",
   "arch": "x86_64",
-  "checksum": "dd8fa43d49f2879b0fe936b831f4fb6cd6349a98a6792cc1e22a2de03b78797a",
+  "checksum": "e94e6956207561ee254563928bb4921e58cbf71d6153e249ed61c01ef480677b",
   "version": "v1.1.0",
   "semantic_version": "1.1.0",
   "os": {

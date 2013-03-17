@@ -1,0 +1,15 @@
+{
+  "id": "el6_1_x86_64_4_2_10",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.10/VirtualBox-4.2-4.2.10_84104_el6-1.x86_64.rpm",
+  "filename": "VirtualBox-4.2-4.2.10_84104_el6-1.x86_64.rpm",
+  "arch": "x86_64",
+  "checksum": "7a1913ec1fc45c8a589485b14e6331fecb4638e7ef64d7f09f06f65853bf15c0",
+  "version": "4.2.10",
+  "semantic_version": "4.2.10",
+  "os": {
+    "el": [
+      "6"
+    ]
+  },
+  "desc": "VirtualBox"
+}
