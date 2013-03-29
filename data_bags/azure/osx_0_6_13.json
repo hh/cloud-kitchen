@@ -1,0 +1,16 @@
+{
+  "id": "osx_0_6_13",
+  "source": "http://az412849.vo.msecnd.net/downloads01/azuresdk-v0.6.13.pkg",
+  "filename": "azuresdk-v0.6.13.pkg",
+  "arch": "x86_64",
+  "checksum": "acb18bb786afe70ed82080f10a5e19927f66ee7ab03feaf14a8f7d309d995dc1",
+  "version": "0.6.13",
+  "semantic_version": "0.6.13",
+  "os": {
+    "mac_os_x": [
+      "10.7",
+      "10.8"
+    ]
+  },
+  "desc": "Azure"
+}

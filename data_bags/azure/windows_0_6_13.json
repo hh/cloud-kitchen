@@ -1,0 +1,18 @@
+{
+  "id": "windows_0_6_13",
+  "source": "http://az412849.vo.msecnd.net/downloads01/azuresdk-cli-v0.6.13.msi",
+  "filename": "azuresdk-cli-v0.6.13.msi",
+  "arch": "x86_64",
+  "checksum": "04859af7bfa31baaf828d081b73f16c59aba89473ea56d65747b1ad39292164e",
+  "version": "0.6.13",
+  "semantic_version": "0.6.13",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  },
+  "desc": "Azure"
+}
