@@ -1,0 +1,21 @@
+{
+  "id": "windows_v1_1_4",
+  "source": "http://files.vagrantup.com/packages/87613ec9392d4660ffcb1d5755307136c06af08c/Vagrant.msi",
+  "filename": "Vagrant-v1.1.4.msi",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "dad896002ef4ddde6dd1078e6485a85db7f37b629fe0014713a0a42d38c7185d",
+  "version": "v1.1.4",
+  "semantic_version": "1.1.4",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  },
+  "desc": "Vagrant"
+}

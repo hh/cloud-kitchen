@@ -1,0 +1,23 @@
+{
+  "id": "ubuntu_i686_v1_1_4",
+  "source": "http://files.vagrantup.com/packages/87613ec9392d4660ffcb1d5755307136c06af08c/vagrant_i686.deb",
+  "filename": "vagrant-v1.1.4_i686.deb",
+  "arch": "i686",
+  "checksum": "178648945e9586f495e22fc7fadba7ae7f58a8d21f282664b6c18bd662db3c98",
+  "version": "v1.1.4",
+  "semantic_version": "1.1.4",
+  "os": {
+    "ubuntu": [
+      "10.04",
+      "10.10",
+      "11.04",
+      "11.10",
+      "12.04",
+      "12.10"
+    ],
+    "debian": [
+      "6"
+    ]
+  },
+  "desc": "Vagrant"
+}
