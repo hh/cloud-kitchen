@@ -63,7 +63,7 @@ module KnifePlugins
         virtualbox_ver = ::File.basename(ver_url.sub('/',''))
         semantic_ver = virtualbox_ver
         # I only want 4.2.8 or higher
-        next if not Chef::VersionConstraint.new(">= 4.2.8").include? semantic_ver
+        next if not Chef::VersionConstraint.new(">= 4.2.12").include? semantic_ver
 
         # we wants rhel 6, osx, windows, and recent ubuntus, the guest additions and extpack
         wants = %w{ el6 OSX Win precise quantal VBoxGuestAdditions Pack }

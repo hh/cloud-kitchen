@@ -1,0 +1,15 @@
+{
+  "id": "ubuntu_precise_x86_64_4_2_12_iso",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.12/virtualbox-4.2_4.2.12-84980~Ubuntu~precise_amd64.deb",
+  "filename": "virtualbox-4.2_4.2.12-84980~Ubuntu~precise_amd64.deb",
+  "arch": "x86_64",
+  "checksum": "9bfe77a985637a5ac87e5ca5c12bff20053c8fbdcb1a8ec7f8a50a9ccfd3c3f2",
+  "version": "4.2.12",
+  "semantic_version": "4.2.12",
+  "os": {
+    "ubuntu": [
+      "12.04"
+    ]
+  },
+  "desc": "VirtualBox"
+}

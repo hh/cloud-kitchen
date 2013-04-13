@@ -1,0 +1,15 @@
+{
+  "id": "extensionpack_4_2_12",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.12/Oracle_VM_VirtualBox_Extension_Pack-4.2.12.vbox-extpack",
+  "filename": "Oracle_VM_VirtualBox_Extension_Pack-4.2.12.vbox-extpack",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "ad15a92e49095c2115bd1793b3b957d3eaf44af0f5d24bb53d6b4fc81c3e2fc4",
+  "version": "4.2.12",
+  "semantic_version": "4.2.12",
+  "os": {
+  },
+  "desc": "VirtualBox Extension Pack"
+}

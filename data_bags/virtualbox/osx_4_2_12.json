@@ -1,0 +1,19 @@
+{
+  "id": "osx_4_2_12",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.12/VirtualBox-4.2.12-84980-OSX.dmg",
+  "filename": "VirtualBox-4.2.12-84980-OSX.dmg",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "75d3e5f1fe264faf937db7e7db12765cd643f6eaac18cbb44801a0108196b32a",
+  "version": "4.2.12",
+  "semantic_version": "4.2.12",
+  "os": {
+    "mac_os_x": [
+      "10.7",
+      "10.8"
+    ]
+  },
+  "desc": "VirtualBox"
+}

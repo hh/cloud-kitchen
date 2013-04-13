@@ -1,0 +1,15 @@
+{
+  "id": "guestadditions_4_2_12_iso",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.12/VBoxGuestAdditions_4.2.12.iso",
+  "filename": "VBoxGuestAdditions_4.2.12.iso",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "aed4730b643aca8daa0829e1122b7c8d592b9f6cea902a98e390c4d22373dfb8",
+  "version": "4.2.12",
+  "semantic_version": "4.2.12",
+  "os": {
+  },
+  "desc": "VirtualBox Guest Additions ISO"
+}

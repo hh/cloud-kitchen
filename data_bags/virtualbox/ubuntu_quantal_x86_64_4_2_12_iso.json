@@ -1,0 +1,15 @@
+{
+  "id": "ubuntu_quantal_x86_64_4_2_12_iso",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.12/virtualbox-4.2_4.2.12-84980~Ubuntu~quantal_amd64.deb",
+  "filename": "virtualbox-4.2_4.2.12-84980~Ubuntu~quantal_amd64.deb",
+  "arch": "x86_64",
+  "checksum": "a2fec7bc7fb2e73bcae7ab9ae1926c11b969688f50bfc02ce9e342c161aa0cbd",
+  "version": "4.2.12",
+  "semantic_version": "4.2.12",
+  "os": {
+    "ubuntu": [
+      "12.10"
+    ]
+  },
+  "desc": "VirtualBox"
+}

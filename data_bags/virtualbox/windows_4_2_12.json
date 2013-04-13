@@ -1,0 +1,21 @@
+{
+  "id": "windows_4_2_12",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.12/VirtualBox-4.2.12-84980-Win.exe",
+  "filename": "VirtualBox-4.2.12-84980-Win.exe",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "2311cd60cf97b5d128125d092a858adc15d95ebbfc95ec6c2f04b9b5199a6d2c",
+  "version": "4.2.12",
+  "semantic_version": "4.2.12",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  },
+  "desc": "VirtualBox"
+}

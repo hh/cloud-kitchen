@@ -1,0 +1,15 @@
+{
+  "id": "el6_1_x86_64_4_2_12",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.12/VirtualBox-4.2-4.2.12_84980_el6-1.x86_64.rpm",
+  "filename": "VirtualBox-4.2-4.2.12_84980_el6-1.x86_64.rpm",
+  "arch": "x86_64",
+  "checksum": "035e7bd58c65eff683c1601c835d9029b4c59c871667cf2e7a36ac098fdc3131",
+  "version": "4.2.12",
+  "semantic_version": "4.2.12",
+  "os": {
+    "el": [
+      "6"
+    ]
+  },
+  "desc": "VirtualBox"
+}
