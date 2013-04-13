@@ -1,0 +1,19 @@
+{
+  "id": "osx_v1_1_5",
+  "source": "http://files.vagrantup.com/packages/64e360814c3ad960d810456add977fd4c7d47ce6/Vagrant.dmg",
+  "filename": "Vagrant-v1.1.5.dmg",
+  "arch": [
+    "i686",
+    "x86_64"
+  ],
+  "checksum": "69aa2389ec439431acd5d78b47db5149bf055b78443b70ec3f831ed4375d7669",
+  "version": "v1.1.5",
+  "semantic_version": "1.1.5",
+  "os": {
+    "mac_os_x": [
+      "10.7",
+      "10.8"
+    ]
+  },
+  "desc": "Vagrant"
+}

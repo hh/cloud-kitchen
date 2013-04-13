@@ -1,0 +1,20 @@
+{
+  "id": "el_x86_64_v1_1_3",
+  "source": "http://files.vagrantup.com/packages/0903e62add3d6c44ce6ad31ce230f3092be445eb/vagrant_x86_64.rpm",
+  "filename": "vagrant-v1.1.3_x86_64.rpm",
+  "arch": "x86_64",
+  "checksum": "d23e0f68b3b4ac3be849d94bf2edea67e7f156034e3593790bb03d1bd6fb3082",
+  "version": "v1.1.3",
+  "semantic_version": "1.1.3",
+  "os": {
+    "el": [
+      "5",
+      "6"
+    ],
+    "sles": [
+      "11.2",
+      "12.2"
+    ]
+  },
+  "desc": "Vagrant"
+}

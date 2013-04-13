@@ -53,7 +53,7 @@ module KnifePlugins
         vagrant_ver = ::File.basename(ver_url)
         semantic_ver = vagrant_ver[1..-1]
         # I only want 1.0.6 or higher
-        next if not Chef::VersionConstraint.new(">= 1.0.6").include? semantic_ver
+        next if not Chef::VersionConstraint.new(">= 1.1.5").include? semantic_ver
 
         # get the urls for all links that have a class starting with file
         package_urls = Nokogiri::HTML(open(ver_url)).search(
