@@ -98,7 +98,7 @@ module KnifePlugins
           flavor = 'linux_deb'
         end
 
-        next if not Chef::VersionConstraint.new(">= 1.4.10").include? semantic_ver
+        next if not Chef::VersionConstraint.new(">= 1.4.11").include? semantic_ver
 
         package_url = 'https://synergy.googlecode.com/files/' + package_filename
         dbi_safe_ver = synergy_ver.gsub('.','_')
