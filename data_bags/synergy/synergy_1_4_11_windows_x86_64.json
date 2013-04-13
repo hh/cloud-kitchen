@@ -1,0 +1,18 @@
+{
+  "id": "synergy_1_4_11_windows_x86_64",
+  "source": "https://synergy.googlecode.com/files/synergy-1.4.11-Windows-x64.exe",
+  "filename": "synergy-1.4.11-Windows-x64.exe",
+  "arch": "x86_64",
+  "checksum": "fdc1697596bd43910653d78d2510a459fcea7a7d10b75d0bc76f817a1b24c880",
+  "version": "1.4.11",
+  "semantic_version": "1.4.11",
+  "os": {
+    "windows": [
+      "2008r2",
+      "2012",
+      "7",
+      "8"
+    ]
+  },
+  "desc": "Synergy"
+}

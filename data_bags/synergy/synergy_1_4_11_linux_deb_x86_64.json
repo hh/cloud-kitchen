@@ -1,0 +1,23 @@
+{
+  "id": "synergy_1_4_11_linux_deb_x86_64",
+  "source": "https://synergy.googlecode.com/files/synergy-1.4.11-Linux-x86_64.deb",
+  "filename": "synergy-1.4.11-Linux-x86_64.deb",
+  "arch": "x86_64",
+  "checksum": "991276705f20363f8f2f1d4d09f4951f7dbeb07bb37f5d4f1244f77a4954450a",
+  "version": "1.4.11",
+  "semantic_version": "1.4.11",
+  "os": {
+    "debian": [
+      "6"
+    ],
+    "ubuntu": [
+      "10.04",
+      "10.10",
+      "11.04",
+      "11.10",
+      "12.04",
+      "12.10"
+    ]
+  },
+  "desc": "Synergy"
+}

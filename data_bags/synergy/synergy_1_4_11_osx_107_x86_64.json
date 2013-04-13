@@ -1,0 +1,15 @@
+{
+  "id": "synergy_1_4_11_osx_107_x86_64",
+  "source": "https://synergy.googlecode.com/files/synergy-1.4.11-MacOSX107-x86_64.dmg",
+  "filename": "synergy-1.4.11-MacOSX107-x86_64.dmg",
+  "arch": "x86_64",
+  "checksum": "451882a1962b1c42667f99e24492ed92cb58b57da9144505087e0fec26da4dda",
+  "version": "1.4.11",
+  "semantic_version": "1.4.11",
+  "os": {
+    "osx": [
+      "10.7"
+    ]
+  },
+  "desc": "Synergy"
+}
