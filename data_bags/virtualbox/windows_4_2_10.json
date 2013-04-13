@@ -1,7 +1,7 @@
 {
   "id": "windows_4_2_10",
-  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.10/VirtualBox-4.2.10-84104-Win.exe",
-  "filename": "VirtualBox-4.2.10-84104-Win.exe",
+  "source": "http://dlc.sun.com.edgesuite.net/virtualbox/4.2.10/VirtualBox-4.2.10-84105-Win.exe",
+  "filename": "VirtualBox-4.2.10-84105-Win.exe",
   "arch": [
     "i686",
     "x86_64"
